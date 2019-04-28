@@ -1,0 +1,117 @@
+<!DOCTYPE HTML>
+    <html>
+
+<head>
+    <link rel="stylesheet" href="New experience.css">  
+    <title> Home </title>
+    <link rel ="icon" type="" href="favicon.png"> 
+        </head>
+        
+ <body> 
+   
+    
+
+        <div id = "wrapper">
+  <div class="header">
+  <img src="logo_transparent2.png" alt="logo" />
+  <h1></h1>
+</div>
+
+     <div id="nav">
+         <r>&nbsp </r>
+     <a href="Home.html"> Home</a>
+          <r>&nbsp &nbsp &nbsp</r>
+         <a href="cs.html"> Cruise Ships</a>
+          <r>&nbsp &nbsp &nbsp</r>
+         <a href="boutique hotels.html"> Boutique Hotels</a>
+          <r>&nbsp &nbsp &nbsp</r>
+         <a href="Activities.html"> Activites</a>
+         <br><br>
+     
+     
+     </div><br> 
+            
+            
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="Home%20image1.jpg" width = 700 height = 400>
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <img src="HI.jpg" width = 700 height = 400>
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <img src="amazing-2451327.jpg" width = 700 height = 400>
+  <div class="text"></div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+            
+            
+            
+<script>
+
+  var slideIndex = 1;
+var timer = null;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  clearTimeout(timer);
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  clearTimeout(timer);
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n==undefined){n = ++slideIndex}
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  timer = setTimeout(showSlides, 5000);
+} 
+</script>
+<p>This Website is not a booking website.<br>
+   
+     The site's purpose is to find a solution to the lack of knowledge about where to spend vacations.<br> It also solves the problem of people going to places that are similar every year and are feeling bored due to the repetition.</p>
+     <br>
+     <br>
+                        
+                    
+ </div> 
+               <div id ="fr">
+   <footer>
+    <p>
+      copyrights &copy A Whole New Experience 2019<br>
+       <a href="Feedback.html">Feedback</a>
+      <br> sasakihaise12012@gmail.com <br> 01111256186<br>The website doesn't charge any fees from the user
+       </p>
+       </footer> 
+                   
+    </div>
+    </body>    
+    
+</html> 

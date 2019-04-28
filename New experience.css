@@ -1,0 +1,349 @@
+head{
+    
+}    
+#nav a:link {
+  background-color: deepskyblue;
+  color: white;
+  padding: 14px 25px;
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block;  
+     border-style: solid; 
+    border-radius: 50px;
+} 
+#nav a:visited{
+     background-color: deepskyblue;
+  color: white;
+  padding: 14px 25px;
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block;  
+     border-style: solid; 
+    border-radius: 50px;
+}
+#nav a:hover  {
+  background-color: blue;
+}  
+
+
+body{
+    background-color:darkcyan;
+    text-align: center;
+    font-family: Arial , sans-serif ;  
+    background-position: center; 
+      background-repeat: no-repeat; 
+    background-size: cover;
+        
+}
+h1 { 
+ font-size: 250%;
+    text-align: center;   
+} 
+
+
+.header img {
+  float: none;
+  width: 600px;
+  height: 500px;
+ 
+}
+
+.header h1 {
+  position: relative;
+  top: 18px;
+  left: 10px; 
+ 
+}
+
+ 
+h3{color:darkcyan;}
+  
+} 
+h3{
+color: green;    
+} 
+.price{ 
+font-size: 150%; 
+    color: darkblue ;
+}
+.pcolor{ 
+color: blue;
+}
+
+#wrapper { 
+    background-color: #ebebeb;  
+    background-repeat: no-repeat; 
+    background-size: cover;
+    margin-left: 100px; 
+    margin-right: 100px; 
+    margin-top: 100px; 
+    margin-bottom: -25px;
+    box-shadow: 5px 5px 5px black; 
+   min-width: 1000px; 
+
+    
+}
+
+#nav{
+    font-size: 180%; 
+    text-align:center;  
+
+}
+
+.bc {
+    margin-left:100px;
+  padding: 10px 16px;
+  list-style: none;
+  background-color: white;
+    text-align: left;
+}
+ul.bc {
+  padding: 10px 16px;
+  list-style: none;
+  background-color:#ebebeb;  
+;
+}
+ul.bc li {
+  display: inline;
+  font-size: 18px;
+}
+ul.bc li+li:before {
+  padding: 8px;
+  color: black;
+  content: "\00BB";
+}
+ul.bc li a {
+  color: blue;
+  text-decoration: none;
+}
+ul.bc li a:hover {
+  color:dodgerblue;
+  text-decoration: none;
+} 
+
+
+
+  
+.nav2 a:link, a:visited  
+{
+  background-color: firebrick;
+  color: white;
+  padding: 14px 25px;
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block;  
+     border-style: double; 
+    border-radius:10px;
+}
+
+#nav2 a:hover, a:active {
+  background-color: crimson;
+}
+p { 
+    margin-left:10px;
+    margin-right:10px;
+    
+} 
+
+
+.mySlides { 
+    display: none ;
+}
+img { 
+    vertical-align: middle; 
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px; ; 
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+} 
+.prev{ 
+left:0px;
+}
+
+
+.next {
+  right: 0px;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8); 
+    
+}
+
+
+.text {
+  color: #f2f2f2;
+  font-size: 30px;
+  padding: 8px 12px;
+  position: relative;
+  bottom: 70px;
+  width: 100%;
+  text-align: center; 
+}
+
+.dot {
+  cursor: pointer; 
+    background-color: darkgray;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px; 
+  border-radius: 50%;
+  display: inline-block; 
+}
+
+.active, .dot:hover {
+  background-color: gray;
+}
+
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+} 
+
+
+.everestLINK a:link {
+   color: blue; 
+    text-decoration: none;
+}
+.everestLINK a:visited{ 
+color: blue;  
+    text-decoration: none;
+    
+}
+.everestLINK a:hover, a:active {
+   
+  background-color:#33ccb3; 
+    color: blue;
+      
+}
+.everstIMAGE{
+    text-align: center;
+}
+.everestQualities{
+    text-align: center;
+font-size: 15px;
+    color: #cc334c; 
+    
+}
+.everestTalk{
+text-align: left;
+    font-size: 40px;
+     color: #334ccc;
+    
+}
+.everestCONS{
+    text-align: left;
+    font-size: 30px;
+    color: #33ccb3; 
+    font-weight: bold;
+}
+   
+.everestTITLE{
+    font-size: 30px;
+    font-style: italic;
+    color: black;
+}
+.everest{
+    font-size: 20px ;
+    
+} 
+
+
+
+
+
+li{display: inline-block;}
+
+
+.label{width :300px;
+        display:inline-block;}
+
+
+
+.csnav a:link{ 
+
+color: blue; 
+    text-decoration: none; 
+
+}
+.csnav a:visited{ 
+
+color: blue; 
+    text-decoration: none; 
+
+}
+#fr footer{
+   
+background-image:url(Footer.png); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 1000px; 
+    color: darkgray;
+    margin-left: 100px; 
+    margin-right: 100px;   
+     box-shadow: 5px 5px 5px black; 
+    font-size:75%;
+} 
+
+ul.col1{   
+    text-align: left;
+list-style: none ;  
+    font-size: 25px;   
+    display: flex;
+}
+
+ul.col1 li{ 
+display: flex; 
+    flex-direction: row;
+    
+
+
+}
+ul.col1 a{  
+   display: flex;
+  flex-direction: row;
+text-decoration: none; 
+    color: blue;  
+} 
+
+ul.col2{   
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+list-style: none ;
+    font-size: 25px;  
+} 
+ul.col2 a{  
+text-decoration: none; 
+    color: blue;  
+}
+
